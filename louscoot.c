@@ -146,7 +146,11 @@ void retour(){
 void etatScooter(){
       char  rech[8];
        int i,pos=-1;
+<<<<<<< HEAD
       printf("Veuillez entrez le numero d'identification du scooter  (en majuscule) \n=>");
+=======
+      printf("Veuillez entrez le numero d'identification du scooter (en majuscule) \n=>");
+>>>>>>> acf635f39b6509e58e9d919ce7445c40b919dd22
       scanf("%s",&rech);
       for ( i = 0; i < 6; i++)
       {
