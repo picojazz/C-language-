@@ -4,11 +4,11 @@
 int main () {
 	int a , b , t ;
 	printf("entrez les nombres \n");
-	scanf("a = %d",&a);
-	scanf("b = %d",&b);
+	scanf("%d",&a);
+	scanf("%d",&b);
 	t=a;
 	a=b;
 	b=t;
-	printf("a = %f \n b= %f",a,b );
+	printf("a = %d \n b= %d",a,b );
 	return 0 ;
 }
