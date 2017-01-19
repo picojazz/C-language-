@@ -116,7 +116,7 @@ void louer(){
 void retour(){
       char  rech[8];
       int i,pos=-1;
-      printf("Veuillez entrez le numero d'identification du scooter a louer (en majuscule) \n=>");
+      printf("Veuillez entrez le numero d'identification du scooter a retouner (en majuscule) \n=>");
       scanf("%s",&rech);
       for ( i = 0; i < 6; i++)
       {
@@ -146,7 +146,7 @@ void retour(){
 void etatScooter(){
       char  rech[8];
        int i,pos=-1;
-      printf("Veuillez entrez le numero d'identification du scooter a louer (en majuscule) \n=>");
+      printf("Veuillez entrez le numero d'identification du scooter  (en majuscule) \n=>");
       scanf("%s",&rech);
       for ( i = 0; i < 6; i++)
       {
